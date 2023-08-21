@@ -1,56 +1,53 @@
-*{
+*, *::before, *::after{
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+.hero {
+    padding: 100px 0;
+    background-color: #23424A;
+    color: white;
 }
 
 .container {
-    width: 90%;
+    width: 80%;
+    max-width: 750px;
     margin: 0 auto;
-    background-color: #23424A;
-    color: white;
-    margin-top: 2em;
-    padding-left: 3em;
-    padding-top: 2em;
-    padding-bottom: 10em;
+}
+
+.hero__text{
+    width: 75%;
 }
 
 h1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 35px;
+    font-size: 3rem;
     font-weight: 700;
-    width: 55%;
-
 }
 
 p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
     font-weight: 400;
-    width: 55%;
     color: rgba(255, 255, 255, 0.85);
-    line-height: 150.188%;
-    padding-bottom: 2em;
-
+    margin-bottom: 3em;
 }
 
 
-.button{
+ .button{
+    display: inline-block;
     background-color: #38CFD9;
-    text-align: center;
     border-radius: 31.5px;
-    width: 22%;
-    max-width: 265px;
-    min-width: 200px;
     color: #072A2D;
-    font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-    padding: 0.5em;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150.188%; /* 31.539px */
-    letter-spacing: 1.05px;
+    padding: 0.75em 2em;
+    font-weight: 900;
+}
+
+.button:hover,
+.button:focus {
+    opacity: .75;
+    cursor: pointer;
 }
 
