@@ -47,9 +47,20 @@ h1 {
     /* gap: 100px; */
 }
 
+.row2 {
+    display: flex;
+    background: #136C72;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
 .col {
     /* these are now flex items */
     width: 100%;
+    margin: 10px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .hero {
@@ -81,3 +92,8 @@ h1 {
 .btn:focus {
     opacity: .75;
 }
+
+.row h2 {
+    color: #87629A;
+}
+
