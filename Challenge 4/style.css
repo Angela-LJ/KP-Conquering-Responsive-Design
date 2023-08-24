@@ -51,17 +51,28 @@ h1 {
     display: flex;
     background: #136C72;
     color: white;
-    text-align: center;
-    padding: 25px;
 }
 
-.col {
+.row .col {
     /* these are now flex items */
     width: 100%;
-    margin: 10px;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.row .col+.col{
+    margin-left: 10px;
+}
+
+.row2 .col {
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
+
+
 
 .hero {
     padding: 100px 0;
