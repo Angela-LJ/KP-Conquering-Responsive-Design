@@ -47,31 +47,19 @@ h1 {
     /* gap: 100px; */
 }
 
-.row2 {
-    display: flex;
-    background: #136C72;
-    color: white;
+.col {
+    margin-left: 30px;
 }
 
 .row .col {
     /* these are now flex items */
     width: 100%;
-    text-align: center;
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 .row .col+.col{
     margin-left: 10px;
 }
-
-.row2 .col {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 60px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
 
 
 .hero {
@@ -86,6 +74,21 @@ h1 {
 
 .hero p {
     margin-bottom: 3em;
+}
+
+.three-col {
+    padding: 3em 0;
+    text-align: center;
+}
+
+.three-col h2 {
+    color: #87629A;
+}
+
+.two-col {
+    background: #136c72;
+    color: white;
+    text-align: center;
 }
 
 .btn {
@@ -103,8 +106,3 @@ h1 {
 .btn:focus {
     opacity: .75;
 }
-
-.row h2 {
-    color: #87629A;
-}
-
