@@ -121,7 +121,6 @@ h1 {
     color: white;
     text-align: center;
     padding: 2em;
-    font-size: 17px;
     width: 40%;
 }
 
@@ -132,4 +131,5 @@ h1 {
 .side__text p {
     padding-bottom: 1em;
     line-height: 1.7rem;
+    font-size: 1.2rem;
 }
