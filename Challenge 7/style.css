@@ -2,9 +2,33 @@
     box-sizing: border-box;
 }
 
+*{
+    margin: 0 auto;
+}
+
 span {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 18px;
     letter-spacing: 4px;
+    color: #222C2A;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: #824936;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 900px;
+}
+
+header {
+    min-height: 700px;
+    background-color: #F3EED9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: black 1px solid;
 }
