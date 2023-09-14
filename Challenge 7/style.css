@@ -105,8 +105,6 @@ h1 {
     max-width: 800px;
     align-self: flex-start;
     margin-left: 2em;
-    width: 100%;
-    min-width: 200px;
 }
 
 @media only screen and (max-width: 1000px){
@@ -120,7 +118,6 @@ h1 {
         flex-direction: column;
     }
     .custom__img {
-        max-width: 500px;
         margin-left: 0 auto;
         margin-top: 2em;
     }
