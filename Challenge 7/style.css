@@ -2,12 +2,18 @@
     box-sizing: border-box;
 }
 
-*{
-    margin: 0 auto;
-}
+
 
 img {
     max-width: 100%;
+}
+
+header {
+    min-height: 660px;
+    background-color: #F3EED9;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 span {
@@ -21,20 +27,12 @@ span {
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 50px;
     color: #824936;
-    padding-left: 1em;
-    padding-right: 1em;
-    max-width: 900px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-header {
-    min-height: 700px;
-    background-color: #F3EED9;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
 
 .section__one{
     background: white;
@@ -42,11 +40,10 @@ header {
 
 
 .container{
-    max-width: 1128px;
+    max-width: 1328px;
     margin: 0 auto;
     border: 3px red solid;
     padding-top: 2em;
-    min-height: 400px;
     width: 100%;
 }
 
@@ -66,10 +63,11 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
     line-height: 1.5em;
+    padding-bottom: 4em;
 }
 
 .paragraph__container p {
-    color: #2a3735f3;
+    color: #0a4e42;
 }
 
 .paragraph__container p + p {
@@ -78,20 +76,37 @@ header {
 
 .section__two{
     background: #222C2A;
-    color: #F3EED9;
-    font-size: 27px;
-    display: flex;
-    flex-direction: row;
     border: dotted purple 3px;
 }
 
-.section__two p {
-    color: #F3EED9;
-    width: 50%;
+.section__two .container {
+    display: flex;
+    flex-direction: row wrap;
+    padding-bottom: 4em;
+    padding-top: 4em;
 }
 
-.section__two img {
-    max-width: 700px;
+.section__two-title{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+    color: #F3EED9;
+    line-height: 1.5em;
+}
+
+.section__two-text {
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+}
+
+.custom__img {
+    max-width: 800px;
+    align-self: flex-start;
+    margin-left: 2em;
+    width: 100%;
+    min-width: 200px;
 }
 
 @media only screen and (max-width: 1000px){
@@ -100,7 +115,15 @@ header {
     }
     .paragraph__container p + p {
         margin-left: 0;
-        padding-top: 2em;
+    }
+    .section__two .container {
+        flex-direction: column;
+    }
+    .custom__img {
+        max-width: 500px;
+        margin-left: 0 auto;
+        margin-top: 2em;
     }
 }
+
 
